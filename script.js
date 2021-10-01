@@ -1,10 +1,14 @@
 'use script'
 const number = Math.trunc(Math.random()*20)+1;
+
+
 let score = document.querySelector('.score').textContent;
 let hightscore = document.querySelector('.hight').textContent ;
 document.querySelector('.agin').addEventListener('click',function(){
     document.querySelector('.message').textContent =  "Enter Any value...";
     const number =  Math.trunc(Math.random()*20)+1;
+
+
      score = Number('20');
     document.querySelector('.score').textContent = score;
     document.querySelector('body').style.backgroundColor="gray";
@@ -24,6 +28,7 @@ document.querySelector('.agin').addEventListener('click',function(){
         }
         else if(gass==number){
          document.querySelector('.message').textContent =  " Conratulations You are Win";
+
          document.querySelector('body').style.backgroundColor="green";
          document.querySelector('.gess').style.width = "15%";
          document.querySelector('.score').textContent = score;
@@ -66,6 +71,7 @@ document.querySelector('.cheack').addEventListener('click',function(){
    }
    else if(gass==number){
     document.querySelector('.message').textContent =  " Conratulations You are Win";
+
     document.querySelector('body').style.backgroundColor="green";
     document.querySelector('.gess').style.width = "15%";
     document.querySelector('.score').textContent = score;
