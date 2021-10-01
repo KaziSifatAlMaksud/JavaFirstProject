@@ -27,7 +27,6 @@ document.querySelector('.agin').addEventListener('click',function(){
         }
         else if(gass==number){
          document.querySelector('.message').textContent =  " Conratulations You are Win";
-         document.querySelector('.gess').textContent = number;
          document.querySelector('body').style.backgroundColor="green";
          document.querySelector('.gess').style.width = "15%";
          document.querySelector('.score').textContent = score;
