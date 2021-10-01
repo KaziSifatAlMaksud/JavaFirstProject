@@ -1,14 +1,11 @@
 'use script'
-const number = Math.trunc(Math.random()*20)+1;
-
-//document.querySelector('.gess').textContent = number;
+let number = Math.trunc(Math.random()*20)+1;
 let score = document.querySelector('.score').textContent;
 let hightscore = document.querySelector('.hight').textContent ;
 document.querySelector('.agin').addEventListener('click',function(){
     document.querySelector('.message').textContent =  "Enter Any value...";
-    const number =  Math.trunc(Math.random()*20)+1;
+     number =  Math.trunc(Math.random()*20)+1;
     document.querySelector('.input').textContent = NaN;
-  
      score = Number('20');
     document.querySelector('.score').textContent = score;
     document.querySelector('body').style.backgroundColor="gray";
