@@ -5,7 +5,6 @@ let hightscore = document.querySelector('.hight').textContent ;
 document.querySelector('.agin').addEventListener('click',function(){
     document.querySelector('.message').textContent =  "Enter Any value...";
     const number =  Math.trunc(Math.random()*20)+1;
-    document.querySelector('.gess').textContent = number;
      score = Number('20');
     document.querySelector('.score').textContent = score;
     document.querySelector('body').style.backgroundColor="gray";
